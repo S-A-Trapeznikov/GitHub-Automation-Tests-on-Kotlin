@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GitHubSuite1" verbose="1" >
+    <parameter name="login" value="GitHubTestingProject"/>
+    <parameter name="password" value="qwerty2017"/>
+    <parameter name="nameRepo" value="NewRepo"/>
+    <parameter name="newNameRepo" value="ModifyRepo"/>
+    <test name="test1" >
+        <classes>
+            <class name="com.epam.trapeznikau.GitHubAutomationTest" />
+        </classes>
+    </test>
+</suite>

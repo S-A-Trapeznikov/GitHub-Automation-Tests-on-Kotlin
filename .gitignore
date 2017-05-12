@@ -1,0 +1,39 @@
+$ cat .gitignore
+
+### Java ###
+*.class
+
+### Eclipse ###
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Eclipse Core
+.project
+
+# TestNG #
+test-output/
+
+# My logs #
+log/
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+## Maven ##
+target
+
+# Visio #
+*.vsdxbin/
+
+# Temp #
+~*.*
